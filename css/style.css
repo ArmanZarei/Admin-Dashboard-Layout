@@ -290,6 +290,21 @@ main {
     transition: all 0.5s;
 }
 
+/* scrollbar width */
+.custom-scrollbar-css::-webkit-scrollbar {
+    width: 10px;
+}
+/* scrollbar track */
+.custom-scrollbar-css::-webkit-scrollbar-track {
+    background: #020509;
+}
+/* scrollbar handle */
+.custom-scrollbar-css::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: rgba(62, 161, 117, 0.3);
+    background-image: linear-gradient(to top, #3ea175 0%, rgba(62, 161, 117, 0.3) 100%);
+}
+
 hr.sidebar-separator {
     margin-bottom: 25px;
     border-color: #143429;
