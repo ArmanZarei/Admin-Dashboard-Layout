@@ -291,15 +291,15 @@ main {
 }
 
 /* scrollbar width */
-.custom-scrollbar-css::-webkit-scrollbar {
+.sidebar-scrollbar::-webkit-scrollbar {
     width: 10px;
 }
 /* scrollbar track */
-.custom-scrollbar-css::-webkit-scrollbar-track {
+.sidebar-scrollbar::-webkit-scrollbar-track {
     background: #020509;
 }
 /* scrollbar handle */
-.custom-scrollbar-css::-webkit-scrollbar-thumb {
+.sidebar-scrollbar::-webkit-scrollbar-thumb {
     border-radius: 1rem;
     background-color: rgba(62, 161, 117, 0.3);
     background-image: linear-gradient(to top, #3ea175 0%, rgba(62, 161, 117, 0.3) 100%);
